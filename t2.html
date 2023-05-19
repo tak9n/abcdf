@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+<table id="tabla-1">
+<tr>
+    <th colspan="3" id="title">Tabla con tipos de medidas.</th>
+</tr>
+<tr>
+    <th>Tipo</th>
+    <th>Unidad</th>
+    <th>Componente</th>
+</tr>  
+<tbody class="Absolutas">
+    <tr>
+        <td class="tipo">Absolutas</td>
+        <td>px</td>
+        <td>1px = 0,26mm</td>
+    </tr>
+</tbody>
+<tbody class="Relativas">
+
+    <tr>
+        <td rowspan="5" class="tipo">Relativas</td>
+        <td>em</td>
+        <td>1em = +-16px</td>
+    </tr>
+    <tr>
+        <td>ex</td>
+        <td>1ex = 0,5em = +-8px</td>
+</tr>
+<tr>
+    <td>ch</td>
+    <td>zerowidth - 0</td>
+</tr>
+<tr>
+    <td>rem</td>
+    <td>asignado - fijo</td>
+</tr>
+<tr>
+    <td>%</td>
+    <td>heredable - depende del padre</td>
+</tr>
+</tbody>
+<tbody class="Flexibles">
+
+    <tr>
+        <td rowspan="6" class="tipo">flexibles</td>
+        <td>vw</td>
+        <td>% del ancho del navegador</td>
+    </tr>
+    <tr>
+        
+        <td>vh</td>
+        <td>% del alto del navegador</td>
+    </tr>
+    <tr>
+        <td>vmin</td>
+        <td>xx del alto y ancho del navegador</td>
+    </tr>
+    <tr>
+        <td>vmax</td>
+        <td>xx del alto y ancho del navegador</td>
+    </tr>
+    <tr>
+        <td>fr</td>
+        <td>fraction Grid 1-12</td>
+    </tr>
+</tbody>
+</table>
+
+</body>
+</html>

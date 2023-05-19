@@ -1,0 +1,28 @@
+
+body {
+    background-color: #2C3639;
+}
+
+.titulo {  
+    font-family: Noto Sans Nag Mundari;
+    color: #A27B5C;
+    text-align: center;
+    letter-spacing: 1ch;
+}
+
+.lista{
+    color: #A27B5C;
+    margin-top: 3em;
+    margin-left: 2em;
+    font-family: Montserrat;
+}
+
+a{
+   text-decoration: none;
+    color: #A27B5C;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #DCD7C9;
+}
